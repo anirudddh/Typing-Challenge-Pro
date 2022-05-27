@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+   
+
+<script src="script.js" defer></script>
+    <title>Typing Challenge Pro by Aniruddh</title>
+    
+</head>
+<body>
+  
+<div class="timer" id="timer"></div>
+<div class="container">
+    <div class="timer" id="timer"></div>
+    <div class="quote-display" id="quote-display">Loading Please wait...</div>
+<textarea id="quoteInput" class="quote-input" autofocus></textarea>
+<button onmousedown="bleep1.play()" class="button" onclick="renderNewQuote()"><span>New Game</span></button> 
+
+</div>
+<div id="high" class="past"></div>
+<div id="avg" class="past"></div>
+ <div class="luck" id="luck">
+ Feeling lucky enough?<br/>
+ Try your luck:<br/>
+ Enter a number between 1-10. If lucky enough average score would be increased by 10 if not decreased by 10<br />    
+<label for="user-guess">ENTER NO </label><input class="input" min=1 max=10 id="user-guess" type="number" onchange="comparator()">
+
+
+
+</div>
+<div id="result" class="result"><img width="400" height="400" class="won" id="won" src="https://yesiamcheap.com/wordpress/wp-content/uploads/2012/12/youwon1.gif">
+
+    <img width="400" height="400" class="lose" id="lose" src="https://comps.canstockphoto.com/you-lose-rubber-stamp-vector-clipart_csp50805607.jpg">
+</div>
+
+<div id="particles-js"></div>
+
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<footer class="w3-container w3-padding-16 w3-light-grey">
+    
+    
+    <div class="footer">
+        <p>Copyright &copy; 2022 All Rights Reserved | Game made by <a href="https://linktr.ee/Anirudddh" >Aniruddha Rajendra Shinde</a>  </p>
+        
+    </div>
+  </footer>
+</body>
+</html>
